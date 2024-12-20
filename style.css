@@ -1,0 +1,61 @@
+#red{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    transform: scale(3);
+    background-color: red;
+    transition: 0.75s;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+#red:active{
+    transform: scale(100);
+    color: red;
+}
+#green{
+   position: absolute;
+   left: 250px;
+   top: 100px;
+    transform: scale(3);
+    background-color: green;
+    transition: 0.75s;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 10px 10px 10px;
+}
+#green:active{
+    transform: scale(100);
+    color: green;
+}
+#blue{
+    position: absolute;
+    left: 450px;
+    top: 100px;
+     transform: scale(3);
+     background-color: blue;
+     transition: 0.75s;
+     height: 50px;
+     width: 50px;
+     border-radius: 10px 10px 10px 10px;
+ }
+ #blue:active{
+     transform: scale(100);
+     color: blue;
+ }
+ #yellow{
+    position: absolute;
+    left: 650px;
+    top: 100px;
+     transform: scale(3);
+     background-color: yellow;
+     transition: 0.75s;
+     height: 50px;
+     width: 50px;
+     border-radius: 10px 10px 10px 10px;
+ }
+ #yellow:active{
+     transform: scale(100);
+     color: yellow;
+ }
